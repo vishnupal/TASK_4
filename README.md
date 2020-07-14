@@ -39,4 +39,24 @@
 
 ![](images/cloud-config.jpg)
 ![](images/cloud-config1.jpg)
+
+
+### Here we need to specify the Docker Image Name , Name of the Node and the remote root directory and also the Label to be provided so that we can use it to restrict the job on this dynamic slave node.
+
+
+
 ![](images/cloud-config2.jpg)
+
+### Here we need to specify our username and password for ssh remote login and remote program execution.
+
+## Job1: Here I Pull the Github repo automatically when some developers push repo to Github and perform the following operations as:
+
+### Create the new image dynamically for the application and copy the application code into that corresponding docker image
+
+### Push that image to the docker hub (Public repository) 
+### ( Github code contain the application code and Dockerfile to create a new image )
+![](images/dockerfile-httpd.jpg)
+
+![](images/Task1.jpg)
+![](images/Task2.jpg)
+![](images/Task3.jpg)
