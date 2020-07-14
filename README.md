@@ -15,7 +15,7 @@
 ### Here i create Dockerfile for building an image which would work as Jenkins Agent having kubectl setup.
 ![](images/dockerfile.jpg)
 ### here i create a config file for k8s this help me  When i launch the job it should automatically starts job on slave based on the label provided for dynamic approach.
-![](images/congig.jpg)
+![](images/config.jpg)
 
 
 ### I configure docker service file for launching the Dynamic slave using Docker containers remotely ,we have to do the following changes in the /usr/lib/systemd/system/docker.service so that the docker client can remotely connect to docker server.
