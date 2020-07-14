@@ -1,3 +1,5 @@
+![](https://jakubbujny.files.wordpress.com/2019/09/1_l_mvklg3r7vcc6agt53w_a.png?w=883)
+
 # DEVOPS_TASK_4
 ### Here is i use Jenkins bcz Jenkins supports the master-agent architecture (many build agents completing work scheduled by a master server) making it highly scalable. The master’s job is to schedule build jobs, distribute the jobs to agents for actual execution, monitor the agents, and get the build results. Master servers can also execute build job directly.
 
