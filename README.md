@@ -82,8 +82,8 @@
 ### The Dockerfile i have metioned at top i used that to build the image for cloud slave node and then whenever this job will be triggered it will
 
 ### First check for the deployment if no deployment is there it will create one  and will expose the deployment .
-![](images/task10.jpg)
-![](images/task11.jpg)
+![](images/tasl10.jpg)
+![](images/tasl11.jpg)
 ### It create deployment of k8s 
 ![](images/deploy.jpg)
 ### launch oursite
