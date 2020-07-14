@@ -34,3 +34,9 @@
 ```
 ### Now I Configure Cloud Node  in Jenkins
 ### First of all for this setup we need to have Docker plugin installed. 
+
+### Go to Manage Jenkins > Manage Nodes and Clouds > Configure Clouds > Add a new Cloud > Docker
+
+![](images/cloud-config.jpg)
+![](images/cloud-config1.jpg)
+![](images/cloud-config2.jpg)
