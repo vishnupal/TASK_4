@@ -60,3 +60,30 @@
 ![](images/Task1.jpg)
 ![](images/Task2.jpg)
 ![](images/Task3.jpg)
+### Here i am creating the TASK_4 folder where Dockerfile and the code file will be copied from the Jenkins workspace an after copy it will be pushed to dockerhub 
+
+![](images/Task5.jpg)
+![](images/Task6.jpg)
+![](images/Task7.jpg)
+![](images/Task8.jpg)
+### After successfully job1 run then job2 trigger
+### Job2 ( Should be run on the dynamic slave of Jenkins configured with Kubernetes kubectl command): Launch the application on the top of Kubernetes cluster performing following operations:
+
+### If launching first time then create a deployment of the pod using the image created in the previous job. Else if deployment already exists then do rollout of the existing pod making zero downtime for the user.
+
+###  If Application created first time, then Expose the application. Else don’t expose it.
+
+![](images/Task4.jpg)
+
+### Here I have chained this job with job1 and had provided the label to restrict on which node this job should be performed.
+
+### The Dockerfile i have metioned at top i used that to build the image for cloud slave node and then whenever this job will be triggered it will
+
+### First check for the deployment if no deployment is there it will create one  and will expose the deployment .
+![](images/task10.jpg)
+![](images/task11.jpg)
+### It create deployment of k8s 
+![](images/deploy.jpg)
+### launch oursite
+![](images/website.jpg)
+
